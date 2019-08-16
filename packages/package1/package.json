@@ -1,0 +1,46 @@
+{
+  "name": "@aaa/package1",
+  "version": "1.0.0",
+  "description": "package 1",
+  "keywords": [
+    "ts,typescript,demo"
+  ],
+  "author": "@aaa",
+  "homepage": "https://github.com/RWS-NL/air-node-packages/tree/master/packages/package1#readme",
+  "license": "AGPL-3.0-or-later",
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
+  "jsnext:main": "dist/index.es.js",
+  "dependencies": {
+    "package2": "*"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Favna/lerna-demo.git"
+  },
+  "scripts": {
+    "lint": "eslint lib --fix --ext ts",
+    "test": "jest",
+    "prebuild": "yarn lint",
+    "build": "rollup -c rollup.config.js",
+    "start": "yarn build -w",
+    "prepublishOnly": "yarn build"
+  },
+  "bugs": {
+    "url": "https://github.com/Favna/lerna-demo/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">=10",
+    "npm": ">=5"
+  }
+}
