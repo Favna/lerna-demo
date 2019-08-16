@@ -23,7 +23,7 @@
     "url": "git+https://github.com/Favna/lerna-demo.git"
   },
   "scripts": {
-    "lint": "eslint lib --fix --ext ts",
+    "lint": "eslint src --fix --ext ts",
     "test": "jest",
     "prebuild": "yarn lint",
     "build": "rollup -c rollup.config.js",

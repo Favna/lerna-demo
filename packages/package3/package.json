@@ -12,8 +12,9 @@
   "module": "dist/index.es.js",
   "jsnext:main": "dist/index.es.js",
   "dependencies": {
-    "package1": "*",
-    "package2": "*"
+    "@aaa/package1": "*",
+    "@aaa/package2": "*",
+    "moment": "^2.24.0"
   },
   "directories": {
     "lib": "lib",
@@ -27,7 +28,7 @@
     "url": "git+https://github.com/Favna/lerna-demo.git"
   },
   "scripts": {
-    "lint": "eslint lib --fix --ext ts",
+    "lint": "eslint src --fix --ext ts",
     "test": "jest",
     "prebuild": "yarn lint",
     "build": "rollup -c rollup.config.js",

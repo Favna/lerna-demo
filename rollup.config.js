@@ -8,7 +8,7 @@ import cleaner from 'rollup-plugin-cleaner';
 
 export default opts => {
   const options = {...opts};
-  const input = options.input ? options.input : 'lib/index.ts';
+  const input = options.input ? options.input : 'src/index.ts';
   const plugins = options.plugins && options.plugins.length ? options.plugins : [];
   const externalConfig = options.externalConfig && options.externalConfig.length ? options.externalConfig : [];
   const output = options.output && options.output.length ? options.output : [

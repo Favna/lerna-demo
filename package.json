@@ -10,7 +10,6 @@
     "lint": "lerna run lint --parallel",
     "commit": "git-cz",
     "cz": "git-cz",
-    "postinstall": "lerna bootstrap && lerna link",
     "test": "lerna run test --parallel"
   },
   "devDependencies": {
