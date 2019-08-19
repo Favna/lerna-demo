@@ -19,7 +19,7 @@ export class Packager {
   public init() {
     console.group();
     console.log('the name that was set is: ', this.name);
-    console.log('this details that were set are: ', this.details);
+    console.log('this details that were set are: blub ', this.details);
     console.log('the manager that was created is: ', this.manager);
 
     return console.groupEnd();
