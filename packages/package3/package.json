@@ -1,6 +1,6 @@
 {
   "name": "@aaa/package3",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "package 3",
   "keywords": [
     "ts,typescript,demo"
@@ -12,7 +12,7 @@
   "module": "dist/index.es.js",
   "jsnext:main": "dist/index.es.js",
   "dependencies": {
-    "@aaa/package1": "^2.0.0",
+    "@aaa/package1": "^3.0.0",
     "@aaa/package2": "^1.0.1",
     "moment": "^2.24.0"
   },
