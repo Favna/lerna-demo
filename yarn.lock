@@ -1021,10 +1021,10 @@
     unique-filename "^1.1.1"
     which "^1.3.1"
 
-"@favware/eslint-config@3.0.0":
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/@favware/eslint-config/-/eslint-config-3.0.0.tgz#1f19238d0ebd615495ed2698d01a9e758ed9f3fa"
-  integrity sha512-1WEW+uTg8RBM7AbemcNkoEQgOeLw/JiOk9BTKUeb6TJZCIp0LYHjll7A0RYb43MLuIu4eTBjKCVTdljc12nAkQ==
+"@favware/eslint-config@3.0.2":
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/@favware/eslint-config/-/eslint-config-3.0.2.tgz#b5aac8628448be1c1c607e8f84451698a546272d"
+  integrity sha512-IQb6Urv41AkiVLE00K5OFePUK2R/5/paCB/05UzW7fDmhF8LekvtEg9F/hDb+eVmNYwa54rGbdYuUM+xYkOvng==
   dependencies:
     "@typescript-eslint/eslint-plugin" "^2.0.0"
     "@typescript-eslint/parser" "^2.0.0"
@@ -13121,10 +13121,10 @@ rollup-plugin-terser@5.1.1:
     serialize-javascript "^1.7.0"
     terser "^4.1.0"
 
-rollup-plugin-typescript2@^0.22.1:
-  version "0.22.1"
-  resolved "https://registry.yarnpkg.com/rollup-plugin-typescript2/-/rollup-plugin-typescript2-0.22.1.tgz#7678b7decc6808e600ff36c32febd31081b55405"
-  integrity sha512-SQEHr1s0kDWrNV3UKySZtYKFIcWCJh2PQ4ZtLNj18pf50SrxeRDlUksOOeLPyodJ7bVLaKwWDbiobF2a6gfKyg==
+rollup-plugin-typescript2@^0.23.0:
+  version "0.23.0"
+  resolved "https://registry.yarnpkg.com/rollup-plugin-typescript2/-/rollup-plugin-typescript2-0.23.0.tgz#a2b6669ec606862fff62a74a628a838ebad6f108"
+  integrity sha512-LocTdy/rtp7UVoQcxqO3nIDjuI6AhfmiO/iNTx0k3uGRGPFQzlAyw5hEFNMpAT2tlpoGqawRnOT9OCePuwfZ5w==
   dependencies:
     fs-extra "8.1.0"
     resolve "1.11.1"
