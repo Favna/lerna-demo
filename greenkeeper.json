@@ -1,0 +1,12 @@
+{
+  "groups": {
+    "default": {
+      "packages": [
+        "package.json",
+        "packages/package1/package.json",
+        "packages/package2/package.json",
+        "packages/package3/package.json"
+      ]
+    }
+  }
+}
