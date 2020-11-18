@@ -1,7 +1,5 @@
 {
-  "extends": [
-    "@favware/eslint-config"
-  ],
+  "extends": ["@favware/eslint-config"],
   "rules": {
     "no-console": "off"
   }

@@ -1,5 +1,5 @@
-describe('package2', () => {
-  test('should just pass', () => {
+describe("package2", () => {
+  test("should just pass", () => {
     expect(true).toBe(true);
   });
 });

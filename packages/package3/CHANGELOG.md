@@ -7,10 +7,6 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 **Note:** Version bump only for package @aaa/package3
 
-
-
-
-
 ## 1.0.1 (2019-08-16)
 
 **Note:** Version bump only for package @aaa/package3
